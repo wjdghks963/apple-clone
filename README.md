@@ -30,6 +30,7 @@ font-size : 3rem; // 42px
 # 배운 js
 
 - window.innerHeight를 이용해 section들이 다 일정한 높이를 갖게 해준다.
+- document.body.setAttribute("id", `show-scene-${currentScene}`); > body의 id를 show-scene-현재씬으로 스크롤을 내리면 바꿔준다
 
 # 타임라인(스크롤) 설계
 

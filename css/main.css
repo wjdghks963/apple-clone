@@ -72,10 +72,14 @@ a {
 }
 
 .scroll-section {
+  position: relative;
   padding-top: 50vh;
 }
 
 #scroll-section-0 h1 {
+  position: relative;
+  top: -10vh;
+  z-index: 5;
   font-size: 4rem;
   text-align: center;
 }
@@ -87,7 +91,7 @@ a {
   margin: 5px 0;
   height: 3em;
   font-size: 2.5rem;
-  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
 }
 .main-message p {
   font-weight: bold;
@@ -159,6 +163,7 @@ a {
 }
 
 .sticky-elem {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
